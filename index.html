@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f8f3ed" />
+    <meta
+      name="description"
+      content="Một lời chúc nhỏ dành cho ngày kỷ niệm đặc biệt của chúng mình."
+    />
+    <title>Happy Anniversary ♡</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <section class="lock-screen" id="lock-screen" aria-labelledby="lock-title">
+        <div class="lock-card">
+          <div class="lock-heart" aria-hidden="true">♡</div>
+          <h1 id="lock-title">Vui lòng nhập<br />mật khẩu</h1>
+
+          <form id="password-form">
+            <label class="sr-only" for="password">Mật khẩu gồm 4 chữ số</label>
+            <div class="pin-wrap">
+              <input
+                id="password"
+                name="password"
+                type="password"
+                inputmode="numeric"
+                autocomplete="off"
+                maxlength="4"
+                pattern="[0-9]{4}"
+                aria-describedby="password-error"
+                placeholder="••••"
+                required
+              />
+            </div>
+            <p class="hint" id="password-hint">Gợi ý: ngày kỷ niệm 1 năm bên nhau</p>
+            <p class="error-message" id="password-error" aria-live="polite"></p>
+            <button class="open-button" type="submit">Xác nhận</button>
+          </form>
+        </div>
+        <span class="corner-flower flower-one" aria-hidden="true">✳</span>
+        <span class="corner-flower flower-two" aria-hidden="true">✿</span>
+      </section>
+
+      <section class="letter-page" id="letter-page" aria-labelledby="page-title" hidden>
+        <div class="heart-field" aria-hidden="true">
+          <span class="floating-heart">♡</span>
+          <span class="floating-heart">♥</span>
+          <span class="floating-heart">♡</span>
+          <span class="floating-heart">♥</span>
+          <span class="floating-heart">♡</span>
+          <span class="floating-heart">♥</span>
+          <span class="floating-heart">♡</span>
+          <span class="floating-heart">♥</span>
+          <span class="floating-heart">♡</span>
+          <span class="floating-heart">♥</span>
+          <span class="floating-heart">♡</span>
+          <span class="floating-heart">♥</span>
+        </div>
+        <header class="page-header">
+          <span class="eyebrow">02.10 <span aria-hidden="true">·</span> Kỷ niệm ngày em theo đuổi anh</span>
+          <h1 id="page-title">Happy <em>Anniversary</em></h1>
+          <p class="page-subtitle">Dear my Wife,</p>
+        </header>
+
+        <article class="letter-card">
+          <span class="letter-mark" aria-hidden="true">“</span>
+          <p>
+            Anh biết mình viết chữ xấu, nên anh xin phép được bày bỏ những lời nói của mình bằng cách này nhé bé yêu.
+          </p>
+          <p>
+            Cảm ơn em vì một năm bên nhau thật trọn vẹn. Cảm ơn em vì đã luôn ở bên anh, cùng nhau vượt qua những ngày vui và cả những ngày buồn. Cảm ơn em vì đã cho anh cơ hội được yêu thương và được yêu thương. Cảm ơn vì những lời yêu thương được nói nhiều hơn là những lời chia tay. Cảm ơn vì những nụ cười, những cái ôm, những cái hôn, và cả những giọt nước mắt. Cảm ơn vì đã luôn tin tưởng và yêu thương anh.
+          </p>
+          <p>
+            Một năm trôi qua thật nhanh, nhưng anh biết rằng tình yêu của chúng ta sẽ còn mãi. Anh hứa sẽ luôn yêu thương em, chăm sóc em, và làm cho em hạnh phúc. Anh sẽ luôn là người bạn đồng hành, người yêu thương, và người bạn tốt nhất của em. Anh mong rằng chúng ta sẽ còn nhiều năm bên nhau, cùng nhau xây dựng một tương lai tươi đẹp và hạnh phúc.
+          </p>
+          <p class="letter-signoff">Gửi em, my Wife <span>♡</span></p>
+        </article>
+
+        <section class="memories" aria-labelledby="memories-title">
+          <div class="memory-heading">
+            <span class="eyebrow">little moments, big feelings</span>
+            <h2 id="memories-title">Những ngày mình có nhau</h2>
+            <p>Thay những tấm ảnh này bằng kỷ niệm của hai đứa nhé.</p>
+          </div>
+
+          <div class="photo-line">
+            <svg class="string-art" viewBox="0 0 760 205" preserveAspectRatio="none" aria-hidden="true">
+              <path d="M-20 50 C40 50 60 62 110 62 C200 62 265 120 380 120 C495 120 550 62 650 62 C700 62 720 50 780 50" />
+            </svg>
+            <figure class="photo photo-one">
+              <span class="hanging-thread" aria-hidden="true"></span>
+              <img src="img/1.jpg" alt="Lần đầu chụp ảnh chung" />
+              <figcaption>Lần đầu chụp ảnh chung</figcaption>
+            </figure>
+            <figure class="photo photo-two">
+              <span class="hanging-thread" aria-hidden="true"></span>
+              <img src="img/2.jpg" alt="Vũng Tàu on đờ beach" />
+              <figcaption>Vũng Tàu on đờ beach</figcaption>
+            </figure>
+            <figure class="photo photo-three">
+              <span class="hanging-thread" aria-hidden="true"></span>
+              <img src="img/3.jpg" alt="Ẻm cầu hôn ảnh" />
+              <figcaption>Bả cầu hôn ổng</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <footer class="page-footer">
+          <span>always glad it’s you</span>
+          <span aria-hidden="true">♡</span>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>
